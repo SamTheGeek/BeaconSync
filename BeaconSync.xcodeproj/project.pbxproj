@@ -16,6 +16,7 @@
 		224EA1651D171D250025C732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224EA1631D171D250025C732 /* LaunchScreen.storyboard */; };
 		224EA1701D171D250025C732 /* BeaconSyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224EA16F1D171D250025C732 /* BeaconSyncTests.swift */; };
 		224EA17B1D171D250025C732 /* BeaconSyncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224EA17A1D171D250025C732 /* BeaconSyncUITests.swift */; };
+		224EA1891D172E240025C732 /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224EA1881D172E240025C732 /* Beacon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		224EA1761D171D250025C732 /* BeaconSyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaconSyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		224EA17A1D171D250025C732 /* BeaconSyncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconSyncUITests.swift; sourceTree = "<group>"; };
 		224EA17C1D171D250025C732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224EA1881D172E240025C732 /* Beacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				224EA1551D171D250025C732 /* AppDelegate.swift */,
 				224EA15A1D171D250025C732 /* MasterViewController.swift */,
+				224EA1881D172E240025C732 /* Beacon.swift */,
 				224EA15C1D171D250025C732 /* DetailViewController.swift */,
 				224EA15E1D171D250025C732 /* Main.storyboard */,
 				224EA1611D171D250025C732 /* Assets.xcassets */,
@@ -273,6 +276,7 @@
 			files = (
 				224EA1591D171D250025C732 /* BeaconSync.xcdatamodeld in Sources */,
 				224EA1561D171D250025C732 /* AppDelegate.swift in Sources */,
+				224EA1891D172E240025C732 /* Beacon.swift in Sources */,
 				224EA15B1D171D250025C732 /* MasterViewController.swift in Sources */,
 				224EA15D1D171D250025C732 /* DetailViewController.swift in Sources */,
 			);
