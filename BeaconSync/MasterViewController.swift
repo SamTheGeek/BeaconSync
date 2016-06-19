@@ -48,7 +48,6 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
         // 3. Minor
         // 4. Name
         
-        
         // If appropriate, configure the new managed object.
         newEvent.timeStamp = NSDate()
 
