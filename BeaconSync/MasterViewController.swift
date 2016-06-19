@@ -41,7 +41,10 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
     func insertNewObject(_ sender: AnyObject) {
         let context = self.fetchedResultsController.managedObjectContext
         let newEvent = Event(context: context)
-             
+        
+        // Eventually this will load the viewcontroller for creating a new beacon object
+        
+        
         // If appropriate, configure the new managed object.
         newEvent.timeStamp = NSDate()
 
