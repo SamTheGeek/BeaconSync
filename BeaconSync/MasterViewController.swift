@@ -42,7 +42,11 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
         let context = self.fetchedResultsController.managedObjectContext
         let newEvent = Event(context: context)
         
-        // Eventually this will load the viewcontroller for creating a new beacon object
+        // Eventually this will load the viewcontroller for creating a new beacon object. It'll have:
+        // 1. UUID
+        // 2. Major
+        // 3. Minor
+        // 4. Name
         
         
         // If appropriate, configure the new managed object.
